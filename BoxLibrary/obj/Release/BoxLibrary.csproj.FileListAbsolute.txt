@@ -1,0 +1,9 @@
+C:\Projects\Leap\BoxLibrary\bin\Release\BoxLibrary.dll
+C:\Projects\Leap\BoxLibrary\bin\Release\BoxLibrary.pdb
+C:\Projects\Leap\BoxLibrary\bin\Release\Newtonsoft.Json.dll
+C:\Projects\Leap\BoxLibrary\bin\Release\Newtonsoft.Json.xml
+C:\Projects\Leap\BoxLibrary\obj\Release\BoxLibrary.csprojResolveAssemblyReference.cache
+C:\Projects\Leap\BoxLibrary\obj\Release\BoxLibrary.dll
+C:\Projects\Leap\BoxLibrary\obj\Release\BoxLibrary.pdb
+C:\Projects\Leap\BoxLibrary\bin\Release\System.Net.Http.dll
+C:\Projects\Leap\BoxLibrary\bin\Release\System.Net.Http.xml

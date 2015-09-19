@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+   
+   <!-- Mobile viewport optimized: h5bp.com/viewport -->
+   <meta name="viewport" content="width=device-width">
+
+   <title>Site</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <!-- remove or comment this line if you want to use the local fonts -->
+   <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>-->
+
+   <link rel="stylesheet" type="text/css" href="content/css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="content/css/bootstrap-responsive.css">
+   <link rel="stylesheet" type="text/css" href="content/css/bootmetro.css">
+   <link rel="stylesheet" type="text/css" href="content/css/bootmetro-tiles.css">
+    <link rel="stylesheet" type="text/css" href="scripts/styles/leap.css">
+   <!--<link rel="stylesheet" type="text/css" href="content/css/bootmetro-charms.css">-->
+   <link rel="stylesheet" type="text/css" href="content/css/metro-ui-light.css">
+   <link rel="stylesheet" type="text/css" href="content/css/icomoon.css">
+   <!--<link rel="stylesheet" type="text/css" href="content/css/datepicker.css">
+   <link rel="stylesheet" type="text/css" href="content/css/daterangepicker.css">-->
+    <link href="Scripts/styles/kendo.common.min.css" rel="stylesheet" type="text/css" />
+    <link href="Scripts/styles/kendo.metro.min.css" rel="stylesheet" type="text/css" />  
+
+   <!--  these two css are to use only for documentation -->
+   <link rel="stylesheet" type="text/css" href="content/css/demo.css">
+   <link rel="stylesheet" type="text/css" href="scripts/google-code-prettify/prettify.css" >
+
+   <!-- Le fav and touch icons -->
+   <link rel="shortcut icon" href="content/ico/favicon.ico">
+   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="content/ico/apple-touch-icon-144-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="content/ico/apple-touch-icon-114-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="content/ico/apple-touch-icon-72-precomposed.png">
+   <link rel="apple-touch-icon-precomposed" href="content/ico/apple-touch-icon-57-precomposed.png">
+  
+   <!-- All JavaScript at the bottom, except for Modernizr and Respond.
+      Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+      For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+   <script src="scripts/modernizr-2.6.1.min.js"></script>
+       
+</head>
+
+<body>
+   <!--[if lt IE 9]>
+   <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+   <![endif]-->
+
+   <!-- Header
+   ================================================== -->
+   <header id="nav-bar" class="container-fluid">
+      <div class="row-fluid">
+         <div class="span8">
+            <div id="header-container">
+               <a id="backbutton" class="win-backbutton" href="./sites.html"></a>
+               <h5>LeAP</h5>
+               <div class="dropdown">
+                  <a class="header-dropdown dropdown-toggle accent-color" data-toggle="dropdown" href="#" >
+                     Site
+                     <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">                  
+                  <li><a href="./sites.html">Sites</a></li>
+                  <li><a href="./map.html">Maps</a></li>                  
+                  <li class="divider"></li>
+                  <li><a href="./index.html">Home</a></li>
+               </ul>
+            </div>
+            </div>
+         </div>
+         <div id="top-info" class="pull-right">
+         <a href="#" class="pull-left">
+            <div class="top-info-block">
+               <h3>Thomas</h3>
+               <h4>Ridenour</h4>
+            </div>
+            <div class="top-info-block">
+               <b class="icon-user"></b>
+            </div>
+         </a>
+         <hr class="separator pull-left"/>
+         <a id="settings" class="pull-left" href="#">
+            <b class="icon-settings"></b>
+         </a>
+      </div>
+   </div>
+   </header>   
+
+    <div class="container-fluid">
+       <div class="row">  
+    <div id="content-filters" class="row-fluid">
+               <div class="span12">
+                  <ul class="nav nav-pills">
+                     <li class="dropdown">
+                        <a class="dropdown-toggle accent-color" data-toggle="dropdown" href="#">
+                           Market
+                           <b class="caret" href="#"></b>
+                        </a>
+                        <ul id="projects-filter" class="dropdown-menu">
+                           <li><a href="#">Desert Southwest</a></li>
+                           <li><a href="#">Northern California</a></li>
+                           <li><a href="#">BaWa</a></li>
+                           <li><a href="#">Southern California</a></li>
+                           <li><a href="#">Philadelphia</a></li>
+                            <li><a href="#">New York</a></li>
+                            <li><a href="#">Chicago</a></li>
+                        </ul>
+                     </li>                     
+
+                     <li class="dropdown">
+                        <a class="dropdown-toggle accent-color" data-toggle="dropdown" href="#">
+                           Scope
+                           <b class="caret" href="#"></b>
+                        </a>
+                        <ul id="budget-filter" class="dropdown-menu">
+                           <li><a href="#">NSB</a></li>
+                           <li><a href="#">MOD</a></li>                        
+                        </ul>
+                     </li>
+                     <li class="">
+                        <a>|</a>
+                     </li>                      
+                     <li class="dropdown">
+   
+                        <a class="dropdown-toggle accent-color" data-toggle="dropdown" href="#">
+                           <span style="font-size:2em;">CA1234-NSB-2012</span>
+                           <b class="caret" href="#"></b>
+                        </a>
+                        <ul id="sort-filter" class="dropdown-menu">
+                           <li><a href="#">other site</a></li>
+                           <li><a href="#">site 2</a></li>
+                           <li><a href="#">site 3</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </div></div> 
+        </div>
+    <!--<div class="container-fluid">
+       <div class="row">        
+            <div class="span14">
+                <ul class="breadcrumb">
+                    <li><a href="#">Market</a> <span class="divider">/</span></li>
+                    <li><select class="input" id="siteScope">
+                          <option>NSB</option>
+                          <option>MOD</option>
+                        </select> <span class="divider">/</span></li>
+                    <li class="active"><h2>CA1234-NSB-2012</h2></li>
+                </ul>
+            </div>
+
+       </div>
+    </div>-->
+       
+   <div class="container-fluid">
+      <div class="row-fluid">                         
+         <div class="span12">
+             <legend>Process</legend> 
+             <span class="label label-important">Next Action</span>
+             <div class="hero-unit">
+                 <h1>Landlord Review</h1>
+                 <blockquote>
+                 <p class="text-success">Landlord Reviewed Lease: 12/12/2012</p>
+                 <p class="text-info">
+                   Waiting for Lease Approval/Rejection
+                 </p>
+                    
+                </blockquote>
+                 <div class="alert alert-info">
+                 <strong>Complete lease Approval Form</strong>
+                 <a>Form</a>
+               </div>
+                 <div class="alert alert-info">
+                 <strong>Next Instruction!</strong>                 
+               </div>
+               </div>
+                                              
+             <span class="label label-success">Current Status</span>
+             <div class="hero-unit">
+                 <h1>Lease Start</h1>
+                 <blockquote>
+                 <p class="text-success">Lease Created: 2012-10-12</p>
+                 <p class="text-success">Lease Shared to Landlord: 12/11/2012</p>
+                 </blockquote>
+               </div>
+             <div class="hero-unit">
+                 <h1>Other status</h1>
+                 <blockquote>
+                 <p class="text-success">Blah blah: 2012-10-12</p>
+                 <p class="text-success">Blah blah: 12/11/2012</p>
+                 </blockquote>
+               </div> 
+         </div>
+      </div>
+   </div>   
+   
+   <footer class="win-commandlayout win-ui-dark navbar-fixed-bottom">
+      <div class="container">
+         <div class="row">
+            <div class="span6 align-left">
+   
+               <a class="win-command" href="#documentsModal" id="documents" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#xe0c3;</span>
+                  <span class="win-label">Documents</span>
+               </a>
+                
+                <a class="win-command" href="#shareModal" id="share" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#xe155;</span>
+                  <span class="win-label">Share</span>
+               </a>
+
+                <a class="win-command" href="#noticesModal" id="notices" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#xe166;</span>
+                  <span class="win-label">Notices</span>
+               </a>
+
+                <a class="win-command" href="#commentsModal" id="comments" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#x005f;</span>
+                  <span class="win-label">Comments</span>
+               </a>
+
+               <hr class="win-command"  />
+
+                <a class="win-command" href="#reportsModal" id="reports" data-toggle="modal">
+                    <span class="win-commandimage win-commandring">&#xe18d;</span>
+                    <span class="win-label">Reports</span>
+                </a>                                              
+            </div>               
+         </div>
+      </div>
+   </footer>
+   
+    <!-- Modal -->
+   <div id="documentsModal" class="modal hide fade work" tabindex="-1" role="dialog" aria-hidden="true" >
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+       <h3 id="myModalLabel">CA1234-NSB-2012</h3>
+     </div>       
+     <div class="modal-body">
+         <div class="container-fluid">
+      <div class="row-fluid">       
+         <div class="span5">
+            <header>
+               <h2> Site Documents</h2>
+               <!--<p>currrently for the site</p>-->
+            </header>
+         <div  id="siteDocuments" class="listview-container grid-layout" style="height:55%">   
+                                 
+         </div>
+                       
+          </div>
+       <div class="span6">
+          <header>
+               <h2>Actions</h2>
+              <!-- <p>various details about a file description, size, status, create date, created by, modified date, and modified by.</p>-->
+            </header>
+              <ul class="nav nav-tabs">
+                 <li><a class="win-command"  id="A1" data-toggle="tab" >
+                      <span class="win-commandimage win-commandring">&#xe213;</span>
+                      <span class="win-label">Details</span>
+                    </a> 
+
+                 </li>
+                 <li>
+                     <a class="win-command"  id="A3" data-toggle="tab" >
+                      <span class="win-commandimage win-commandring">&#xe213;</span>
+                      <span class="win-label">Comments</span>
+                    </a> 
+
+                 </li>
+                 <li>
+                    <a class="win-command"  id="A4" data-toggle="tab">
+                      <span class="win-commandimage win-commandring">&#xe01f;</span>
+                      <span class="win-label">Upload</span>
+                    </a>  
+
+                 </li>
+                 <li>
+                     <a class="win-command"  id="A2" data-toggle="tab">
+                      <span class="win-commandimage win-commandring">&#xe01d;</span>
+                      <span class="win-label">Download</span>
+                    </a>
+                 </li>
+               </ul>
+              </div>
+      </div>
+        </div> 
+     </div>
+       <div class="modal-footer">
+        <!--<div class="container">
+         <div class="row">
+            <div class="span4">   
+               <a class="win-command"  id="A1" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#xe01f;</span>
+                  <span class="win-label">Upload</span>
+               </a>   
+                <a class="win-command"  id="A2" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#xe01d;</span>
+                  <span class="win-label">Download</span>
+               </a> 
+                <a class="win-command"  id="A3" data-toggle="modal">
+                  <span class="win-commandimage win-commandring">&#xe213;</span>
+                  <span class="win-label">Add Comment</span>
+               </a>                                        
+            </div>               
+         </div>
+      </div> -->      
+     </div>
+   </div>
+  
+    <div id="shareModal" class="modal hide fade work" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+       <h3 id="H1">CA1234-NSB-2012</h3>
+     </div>
+       
+     <div class="modal-body">
+         <div class="container-fluid">
+      <div class="row-fluid">
+         <div class="span6 align-left">
+            <header>
+               <h2>Coming Soon</h2>
+               <p>Needs To Be setup in BPIM database </p>
+            </header>         
+             </div>
+          <div class="span6">
+          <header>
+               <h2>Details</h2>
+               <p>various details who is shared, date shared, role, name email, maybe picture, </p>
+            </header>
+              </div>
+          </div>
+     </div>
+         
+     </div>
+       <div class="modal-footer">
+        <div class="container">
+         <div class="row">
+            <div class="span4">   
+                                      
+            </div>               
+         </div>
+      </div>       
+     </div>
+   </div>
+
+    <div id="noticesModal" class="modal hide fade work" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+       <h3 id="H2">CA1234-NSB-2012</h3>
+     </div>
+       
+     <div class="modal-body">
+         <div class="container-fluid">
+      <div class="row-fluid">
+         <div class="span6 align-left">
+            <header>
+               <h2>Coming Soon</h2>
+               <p>Needs To Be setup in BPIM database </p>
+            </header>         
+             </div>
+          <div class="span6">
+          <header>
+               <h2>Details</h2>
+               <p>various details to see emails, date sent, what was sent.</p>
+            </header>
+              </div>
+          </div>
+     </div>
+         
+     </div>
+       <div class="modal-footer">
+        <div class="container">
+         <div class="row">
+            <div class="span4">   
+                                      
+            </div>               
+         </div>
+      </div>       
+     </div>
+   </div>
+
+    <div id="commentsModal" class="modal hide fade work" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+       <h3 id="H3">CA1234-NSB-2012</h3>
+     </div>
+       
+     <div class="modal-body">
+         <div class="container-fluid">
+      <div class="row-fluid">
+         <div class="span6 align-left">
+            <header>
+               <h2>Coming Soon</h2>
+               <p></p>
+            </header>         
+             </div>
+          <div class="span6">
+          <header>
+               <h2>Details</h2>
+               <p></p>
+            </header>
+              </div>
+          </div>
+     </div>
+         
+     </div>
+       <div class="modal-footer">
+        <div class="container">
+         <div class="row">
+            <div class="span4">   
+                                      
+            </div>               
+         </div>
+      </div>       
+     </div>
+   </div>
+
+    <div id="reportsModal" class="modal hide fade work" tabindex="-1" role="dialog" aria-hidden="true">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+       <h3 id="H4">CA1234-NSB-2012</h3>
+     </div>
+       
+     <div class="modal-body">
+         <div class="container-fluid">
+      <div class="row-fluid">
+         <div class="span6 align-left">
+            <header>
+               <h2>Coming Soon</h2>
+               <p>All reports will be hosted on SSRS</p>
+            </header>         
+             </div>
+          <div class="span6">
+          <header>
+               <h2>Details</h2>
+               <p></p>
+            </header>
+              </div>
+          </div>
+     </div>
+         
+     </div>
+       <div class="modal-footer">
+        <div class="container">
+         <div class="row">
+            <div class="span4">   
+                                      
+            </div>               
+         </div>
+      </div>       
+     </div>
+   </div>
+
+    <script type="text/javascript" src="scripts/jquery-1.8.2.min.js"></script>   
+   <script type="text/javascript" src="scripts/jquery.mousewheel.js"></script>
+   <script type="text/javascript" src="scripts/jquery.scrollTo.js"></script>
+   <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+   <script type="text/javascript" src="scripts/bootmetro.js"></script>   
+    <script type="text/javascript" src="scripts/bootstrap-transition.js"></script> 
+   <!--<script type="text/javascript" src="scripts/demo.js"></script>-->
+   <script type="text/javascript" src="scripts/holder.js"></script>
+    
+<!--   <script type="text/javascript" src="scripts/bootstrap-datepicker.js"></script>
+   <script type="text/javascript" src="scripts/daterangepicker.js"></script>
+    <script src="Scripts/js/kendo.all.min.js"></script>-->  
+    <script src="Scripts/js/leap.Site.js"></script> 
+    <script src="Scripts/js/leap.js"></script> 
+   <script type="text/javascript">
+       $(".metro").metro();
+
+       $('#siteDocuments').on('click', '.mediumListIconTextItem', function (e) {
+           e.preventDefault();
+           $('.selected').removeClass('selected');
+           $(this).toggleClass('selected');
+           //get document info
+
+       });
+       
+       $.urlParam = function (name) {
+           var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+           if (!results) {
+               return 0;
+           }
+           return results[1] || 0;
+       }
+       $(document).ready(function () {
+           //always get the site           
+           Site.folderID = $.urlParam('f');
+           
+           //get the folder content
+           if(Site.folderID !=0){
+               Site.GetLeaseFileList($('#siteDocuments'));
+            }
+           
+
+           //read the database to get the status
+
+       });
+   </script>
+</body>
+</html>

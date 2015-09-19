@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap.Web", "Leap.Web\Leap.Web.csproj", "{0BD1BAE4-77E0-46E1-805C-16E8C02B6D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxLibrary", "BoxLibrary\BoxLibrary.csproj", "{96CA1882-444F-447E-B423-05E41635973B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD1BAE4-77E0-46E1-805C-16E8C02B6D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD1BAE4-77E0-46E1-805C-16E8C02B6D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD1BAE4-77E0-46E1-805C-16E8C02B6D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD1BAE4-77E0-46E1-805C-16E8C02B6D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96CA1882-444F-447E-B423-05E41635973B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CA1882-444F-447E-B423-05E41635973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CA1882-444F-447E-B423-05E41635973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CA1882-444F-447E-B423-05E41635973B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

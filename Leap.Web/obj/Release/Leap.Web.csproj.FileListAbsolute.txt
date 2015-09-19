@@ -1,0 +1,17 @@
+C:\Projects\Leap\Leap.Web\bin\Leap.Web.dll
+C:\Projects\Leap\Leap.Web\bin\Leap.Web.pdb
+C:\Projects\Leap\Leap.Web\bin\BoxLibrary.dll
+C:\Projects\Leap\Leap.Web\bin\log4net.dll
+C:\Projects\Leap\Leap.Web\bin\Newtonsoft.Json.dll
+C:\Projects\Leap\Leap.Web\bin\ServiceLibrary.dll
+C:\Projects\Leap\Leap.Web\bin\UtilityLibrary.dll
+C:\Projects\Leap\Leap.Web\bin\BoxLibrary.pdb
+C:\Projects\Leap\Leap.Web\bin\log4net.xml
+C:\Projects\Leap\Leap.Web\bin\Newtonsoft.Json.xml
+C:\Projects\Leap\Leap.Web\bin\ServiceLibrary.pdb
+C:\Projects\Leap\Leap.Web\bin\UtilityLibrary.pdb
+C:\Projects\Leap\Leap.Web\obj\Release\Leap.Web.csprojResolveAssemblyReference.cache
+C:\Projects\Leap\Leap.Web\obj\Release\Leap.Web.dll
+C:\Projects\Leap\Leap.Web\obj\Release\Leap.Web.pdb
+C:\Projects\Leap\Leap.Web\bin\System.Net.Http.dll
+C:\Projects\Leap\Leap.Web\bin\System.Net.Http.xml

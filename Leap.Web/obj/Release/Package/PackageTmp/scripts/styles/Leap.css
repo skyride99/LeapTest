@@ -1,0 +1,28 @@
+﻿/*.modal.message{ width: 90% !important; }*/
+.work.modal{width:90%; left:5%;margin: 0; height:80%}
+.work.modal.fade.in {
+	top: 5%;
+}
+
+.message {background-color: #51a351; color: white;}
+.listview-container.grid-layout
+{
+	 
+}
+label
+ {
+	font-size:1.5em !important;
+	color: #999999;
+}
+input, textarea, select, .listview-container.grid-layout
+{
+	margin-left:1em !important;
+	margin-right:1em !important;
+	font-size:1.1em;
+	width:100% !important;
+	margin-bottom:2em; 
+}
+
+.mediumListIconTextItem .mediumListIconTextItem-Detail{
+	
+}
